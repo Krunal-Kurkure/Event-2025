@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+i{
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+
+}
 html,
 body {
   font-family: Arial, sans-serif;
@@ -81,15 +87,16 @@ body {
 .maincontainer img {
   height: 330px;
   width: auto;
-  margin-top: 70px;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: 2px solid black;
   box-shadow: 2px 2px 0px 1px rgb(0, 0, 0);
 }
 .maincontainer h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
+  text-align: center;
+  margin-top: 70px;
   margin-bottom: 20px;
   padding: 8px 14px;
   background-color: white;
@@ -111,8 +118,12 @@ body {
     flex-direction: row;
     position: absolute;
     top: 60px;
-    width: auto;
+    width: 50vw;
     padding: 10px;
+    left: 0;
+    gap: 10px;
+    right: 0;
+    margin: auto;
     font-size: 12px;
     border-radius: 10px;
     background-color: white;
@@ -122,10 +133,12 @@ body {
   .NavBar ul li a:hover {
     color: rgb(255, 138, 29);
   }
+  .NavBar ul li a{
+    font-size: 0.5rem;
+  }
   .NavBar ul.active {
     display: flex;
   }
-
   .menu-toggle {
     display: block;
     font-size: 20px;
@@ -151,8 +164,8 @@ body {
     height: 90%;
   }
   .maincontainer img {
-    height: 180px;
-    width: auto;
+    height: 26vh;
+    width: 80vw;
     font-family: "Poppins", sans-serif;
     margin-bottom: 40px;
     border: 2px solid black;
@@ -162,11 +175,11 @@ body {
     height: 183px;
   }
   .maincontainer h1 {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 1.3rem;
+    line-height: 25px;
     text-align: center;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-top: 30px;
     padding: 8px 14px;
     width: 82%;
     background-color: white;
@@ -195,6 +208,13 @@ body {
     color: white;
     font-weight: 800;
   }
+  
+i{
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
 }
 
 .About {
