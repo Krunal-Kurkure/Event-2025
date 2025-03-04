@@ -118,7 +118,7 @@ body {
     flex-direction: row;
     position: absolute;
     top: 60px;
-    width: 50vw;
+    width: 70vw;
     padding: 10px;
     left: 0;
     gap: 10px;
@@ -134,7 +134,7 @@ body {
     color: rgb(255, 138, 29);
   }
   .NavBar ul li a{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .NavBar ul.active {
     display: flex;
@@ -210,7 +210,7 @@ body {
   }
   
 i{
-  font-size: 10px;
+  font-size: 0.8rem;
   justify-content: center;
   align-items: center;
 
