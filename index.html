@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Antic&family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sandip University</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antic&family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap"
+    rel="stylesheet" />
 
-    <section class="Home">
-        <nav class="NavBar">
-            <img src="logo.png" alt="" />
-            <img id="succsalogo" src="logo2.png" alt="" />
-            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-            <ul id="nav-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#Events">Events</a></li>
-              <li><a href="#">Contacts</a></li>
-            </ul>
-          </nav>
-          <div class="maincontainer">
-            <img src="mainbanner.png" alt="" srcset="">
-            <h1>Welcome to Sandip University SUCCSA TechFest 2025</h1>
-            <p>Sandip University Computer Science Students Associaton</p>
-            <button>Explore Event</button>
-          </div>
-    </section>
-    <section class="About"></section>
-    <section class="Events" id="Events">
-      <h2>Events</h2>
-      <p>Lets Do Participate in Events for enhancing and inovating something new
-      </p>
-      <div class="row1">
-        <div class="event"></div>
-        <div class="event"></div>
-        <div class="event"></div>
-      </div>
-      <div class="row1">
-        <div class="event"></div>
-        <div class="event"></div>
-        <div class="event"></div>
-      </div>
-    </section>
-    <section class="Contacts"></section>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <script>
-      function toggleMenu() {
-        const nav = document.getElementById("nav-links");
-        nav.classList.toggle("active");
-      }
-    </script>
-  </body>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandip University</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <section class="Home">
+    <nav class="NavBar">
+      <img src="logo.png" alt="" />
+      <img id="succsalogo" src="logo2.png" alt="" />
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#Events">Events</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+
+
+        </li>
+      </ul>
+    </nav>
+    <div class="maincontainer">
+      <h1>Welcome to Sandip University <br>SUCCSA TechFest 2025</h1>
+      <img src="mainbanner.png" alt="" srcset="">
+      <p>Sandip University Computer Science Students Associaton</p>
+      <button>Explore Event</button>
+    </div>
+  </section>
+  <section class="About"></section>
+  <section class="Events" id="Events">
+    <h2>Events</h2>
+    <p>Lets Do Participate in Events for enhancing and inovating something new
+    </p>
+    <div class="row1">
+      <div class="event"></div>
+      <div class="event"></div>
+      <div class="event"></div>
+    </div>
+    <div class="row1">
+      <div class="event"></div>
+      <div class="event"></div>
+      <div class="event"></div>
+    </div>
+  </section>
+  <section class="Contacts"></section>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("nav-links");
+      nav.classList.toggle("active");
+    }
+  </script>
+</body>
+
 </html>
